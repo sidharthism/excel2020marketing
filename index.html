@@ -50,6 +50,66 @@
       height: 100px;
       width: 100px;
     }
+
+
+    .orb {
+			width: 150px;
+			height: 150px;
+			display: inline;
+			margin: 0 24.7px;
+			float: left;
+			transition: all .2s ease-out;
+			opacity: 0.8;
+		  }
+		  #geogit{
+			width: 100px;
+			margin-top: 20px;
+			height: 100px;
+		  }
+		  .orb:hover {
+			transform: scale(1.2);
+			opacity: 1;
+		  }
+		 .container-fluid{
+			  /*overflow: hidden;*/
+				padding: 0;
+		  }
+		  
+		  .marquee {
+			height: 200px;
+			width: 6350px;
+			border:none;
+			box-sizing: border-box;
+			position: relative;
+      margin: 10px 0 20px 0;
+		  }
+		  
+		  .marquee--inner {
+			display: block;
+			width: 200%;
+			margin: 20px 0;
+			position: absolute;
+			animation: marquee 35s linear infinite;
+		  }
+		  
+		  .marquee--inner:hover {
+			animation-play-state: paused;
+		  }
+		  
+		  /*.half {
+			float: left;
+			width: 10%;
+		  }*/
+		  
+		  #sponsors span {
+			float: left;
+			width: 50%;
+		  }
+		  
+		  @keyframes marquee {
+			0% { left: 0; }
+			100% { left: -100%; }
+		  }
   </style>
 
 </head>
@@ -385,16 +445,15 @@
 
   <!-- Sponsors Section Start -->
   <section id="sponsors" class="section-padding">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <div class="section-title-header text-center">
             <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Sponsores</h1>
-            <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p>
           </div>
         </div>
       </div>
-      <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+      <!-- <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
         <div class="col-md-3 col-sm-3 col-xs-12">
           <div class="spnsors-logo">
             <a href="#"><img class="img-fluid" src="assets/img/sponsors/logo-01.png" alt=""></a>
@@ -418,7 +477,86 @@
         <div class="col-12 text-center">
           <a href="#" class="btn btn-common">become a sponsor</a>
         </div>
+      </div> -->
+ 
+       
+      <div class="marquee">
+        <div class="marquee--inner">
+          <span>
+            <img class="orb" src="assets/img/sponsors/acumen.8393b3b11eebf93ad6d3ea307cafee27.png" alt="acumen">
+            <img class="orb" src="assets/img/sponsors/bosch.f370894053cc3f4250e89b7ebb177e53.png" alt="Bosch">
+            <img class="orb" src="assets/img/sponsors/cl.5fec955b23b8d09c6da4cda666bd734f.png" alt="Career Launcher">
+            <img class="orb" src="assets/img/sponsors/cognicor.d7988704a7731e48ff58bfe77f835e26.png" alt="cognicor">
+            <img class="orb" src="assets/img/sponsors/comptree.7a8ac59119098bd30f8cc67cb2304cfd.png" alt="">
+            <img class="orb" src="assets/img/sponsors/digit.7a6faaf0fb33ca2c962048f54f8daa96.png" alt="">
+            <img class="orb" src="assets/img/sponsors/ebay.748e4289cf5a4d2492e8d14bfe080d6a.png" alt="">
+            <img class="orb" src="assets/img/sponsors/factset.83d04bebf9a918b3dd1a50d06e266e1f.png" alt="">
+            <img class="orb" src="assets/img/sponsors/fedbank.6c60647dbb3f1f20448682864ed91ace.png" alt="">
+            <img class="orb" src="assets/img/sponsors/fullcont.9c10f8a24d82946bbd20b8376f7ce2b5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/gadgeon.9fe3165c12ccaaa8e6a860cd85f71611.png" alt="">
+            <img class="orb" id="geogit" src="assets/img/sponsors/geogit.1d854c96d4f0b76b5f62a37f46ba95d0.png" id="geogit" alt="">
+            <img class="orb" src="assets/img/sponsors/GulfLogo.0a0b736645aa46b3976528d6e38d4f6b.png" alt="">
+            <img class="orb" src="assets/img/sponsors/harley.20da89820a0839dea4b9be22e9a716df.png" alt="">
+            <img class="orb" src="assets/img/sponsors/idea.1b359fca3f558bec29e0e72ce8fa51c5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/infopark.c2a3b32d04a4adb59adfe02776c04bd5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/keralatourism.b1ae98030b07560b6981b41317719f19.png" alt="">
+            <img class="orb" src="assets/img/sponsors/kfc.49ba44cc1a38de5bff2dc02939846131.png" alt="">
+            <img class="orb" src="assets/img/sponsors/ksidcn.13185c33027d25d1c0b457f8c7a9f467.png" alt="">
+            <img class="orb" src="assets/img/sponsors/ksum.404d09337075bb979e66f8c0ed2db7e2.png" alt="">
+            <img class="orb" src="assets/img/sponsors/lic.c10956ea6c2752c3ebba7569239a9c8b.png" alt="">
+            <img class="orb" src="assets/img/sponsors/litmus7.b0b07bcc909c7f434c977dd06b4f98e6.png" alt="">
+            <img class="orb" src="assets/img/sponsors/mcdn.21f699cf85cb5f383d03993029517c77.png" alt="">
+            <img class="orb" src="assets/img/sponsors/mcfadyen.f45285d87ae5bd49d8d5aed920325b39.png" alt="">
+            <img class="orb" src="assets/img/sponsors/nest.8e1e55ae7cb490b022409d00d6f89a0f.png" alt="">
+            <img class="orb" src="assets/img/sponsors/np.9fe1874f0aed4707c3c66701a6b773f0.png" alt="">
+            <img class="orb" src="assets/img/sponsors/radmir.18402934f9002f9d90c86c662258766d.png" alt="">
+            <img class="orb" src="assets/img/sponsors/re.228308eb2c38145e7752c925a6e1ac5f.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sap.a3b60b8bfdb342accfff538ebc9d4393.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sastra.0974ccb78e1d1cae7de1c60bfb75f4d5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sbh.df72dbd6f43d62e70ac438770b5dcbd2.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sbtn.b2a4e085bd1c105f57c5199130d6ba04.png" alt="">
+          </span>
+          <span>
+            <img class="orb" src="assets/img/sponsors/acumen.8393b3b11eebf93ad6d3ea307cafee27.png" alt="acumen">
+            <img class="orb" src="assets/img/sponsors/bosch.f370894053cc3f4250e89b7ebb177e53.png" alt="Bosch">
+            <img class="orb" src="assets/img/sponsors/cl.5fec955b23b8d09c6da4cda666bd734f.png" alt="Career Launcher">
+            <img class="orb" src="assets/img/sponsors/cognicor.d7988704a7731e48ff58bfe77f835e26.png" alt="cognicor">
+            <img class="orb" src="assets/img/sponsors/comptree.7a8ac59119098bd30f8cc67cb2304cfd.png" alt="">
+            <img class="orb" src="assets/img/sponsors/digit.7a6faaf0fb33ca2c962048f54f8daa96.png" alt="">
+            <img class="orb" src="assets/img/sponsors/ebay.748e4289cf5a4d2492e8d14bfe080d6a.png" alt="">
+            <img class="orb" src="assets/img/sponsors/factset.83d04bebf9a918b3dd1a50d06e266e1f.png" alt="">
+            <img class="orb" src="assets/img/sponsors/fedbank.6c60647dbb3f1f20448682864ed91ace.png" alt="">
+            <img class="orb" src="assets/img/sponsors/fullcont.9c10f8a24d82946bbd20b8376f7ce2b5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/gadgeon.9fe3165c12ccaaa8e6a860cd85f71611.png" alt="">
+            <img class="orb" id="geogit" src="assets/img/sponsors/geogit.1d854c96d4f0b76b5f62a37f46ba95d0.png" id="geogit" alt="">
+            <img class="orb" src="assets/img/sponsors/GulfLogo.0a0b736645aa46b3976528d6e38d4f6b.png" alt="">
+            <img class="orb" src="assets/img/sponsors/harley.20da89820a0839dea4b9be22e9a716df.png" alt="">
+            <img class="orb" src="assets/img/sponsors/idea.1b359fca3f558bec29e0e72ce8fa51c5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/infopark.c2a3b32d04a4adb59adfe02776c04bd5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/keralatourism.b1ae98030b07560b6981b41317719f19.png" alt="">
+            <img class="orb" src="assets/img/sponsors/kfc.49ba44cc1a38de5bff2dc02939846131.png" alt="">
+            <img class="orb" src="assets/img/sponsors/ksidcn.13185c33027d25d1c0b457f8c7a9f467.png" alt="">
+            <img class="orb" src="assets/img/sponsors/ksum.404d09337075bb979e66f8c0ed2db7e2.png" alt="">
+            <img class="orb" src="assets/img/sponsors/lic.c10956ea6c2752c3ebba7569239a9c8b.png" alt="">
+            <img class="orb" src="assets/img/sponsors/litmus7.b0b07bcc909c7f434c977dd06b4f98e6.png" alt="">
+            <img class="orb" src="assets/img/sponsors/mcdn.21f699cf85cb5f383d03993029517c77.png" alt="">
+            <img class="orb" src="assets/img/sponsors/mcfadyen.f45285d87ae5bd49d8d5aed920325b39.png" alt="">
+            <img class="orb" src="assets/img/sponsors/nest.8e1e55ae7cb490b022409d00d6f89a0f.png" alt="">
+            <img class="orb" src="assets/img/sponsors/np.9fe1874f0aed4707c3c66701a6b773f0.png" alt="">
+            <img class="orb" src="assets/img/sponsors/radmir.18402934f9002f9d90c86c662258766d.png" alt="">
+            <img class="orb" src="assets/img/sponsors/re.228308eb2c38145e7752c925a6e1ac5f.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sap.a3b60b8bfdb342accfff538ebc9d4393.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sastra.0974ccb78e1d1cae7de1c60bfb75f4d5.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sbh.df72dbd6f43d62e70ac438770b5dcbd2.png" alt="">
+            <img class="orb" src="assets/img/sponsors/sbtn.b2a4e085bd1c105f57c5199130d6ba04.png" alt="">
+      
+          </span>
+        </div>
+      
       </div>
+
+
+
     </div>
   </section>
   <!-- Sponsors Section End -->
