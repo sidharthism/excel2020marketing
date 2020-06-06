@@ -38,7 +38,7 @@
     @media screen and (max-width:480px) {
       .logoimg {
         max-width: 90%;
-        margin-top: 5vh;
+        margin-top: 6vh;
       }
     }
 
@@ -46,70 +46,151 @@
       max-height: 6.5vh;
     }
 
+    .slicknav_btn {
+      border-color: #00000000;
+    }
+
+    .slicknav_nav {
+      padding-bottom: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .navbar-brand img {
+      width: auto;
+    }
+    }
+
+    .navbar-brand img {
+      width: auto;
+    }
+
     .reachimg {
       height: 100px;
       width: 100px;
     }
 
+    #about {
+      padding: 60px 0px 0px;
+    }
 
-    .orb {
-			width: 150px;
-			height: 150px;
-			display: inline;
-			margin: 0 24.7px;
-			float: left;
-			transition: all .2s ease-out;
-			opacity: 0.8;
-		  }
-		  #geogit{
-			width: 100px;
-			margin-top: 20px;
-			height: 100px;
-		  }
-		  .orb:hover {
-			transform: scale(1.2);
-			opacity: 1;
-		  }
-		 .container-fluid{
-			  /*overflow: hidden;*/
-				padding: 0;
-		  }
-		  
-		  .marquee {
-			height: 200px;
-			width: 6350px;
-			border:none;
-			box-sizing: border-box;
-			position: relative;
-      margin: 10px 0 20px 0;
-		  }
-		  
-		  .marquee--inner {
-			display: block;
-			width: 200%;
-			margin: 20px 0;
-			position: absolute;
-			animation: marquee 35s linear infinite;
-		  }
-		  
-		  .marquee--inner:hover {
-			animation-play-state: paused;
-		  }
-		  
-		  /*.half {
+    #association .services-wrapper {
+      margin-top: 0;
+    }
+
+    .services-item {
+      padding: 20px 20px;
+    }
+
+    .padding-none {
+      border: none;
+    }
+
+    @media (max-width: 767px) {
+      .padding-none:nth-child(1) {
+        border: none;
+      }
+    }
+
+      @media (max-width: 991px) {
+        .padding-none:nth-child(1) {
+          border: none;
+        }
+      }
+
+        .orb {
+          width: 150px;
+          height: 150px;
+          display: inline;
+          margin: 0 24.7px;
+          float: left;
+          transition: all .2s ease-out;
+          opacity: 0.8;
+        }
+
+        #geogit {
+          width: 100px;
+          margin-top: 20px;
+          height: 100px;
+        }
+
+        .orb:hover {
+          transform: scale(1.2);
+          opacity: 1;
+        }
+
+        .container-fluid {
+          /*overflow: hidden;*/
+          padding: 0;
+        }
+
+        .marquee {
+          height: 200px;
+          width: 6350px;
+          border: none;
+          box-sizing: border-box;
+          position: relative;
+          margin: 10px 0 20px 0;
+        }
+
+        .marquee--inner {
+          display: block;
+          width: 200%;
+          margin: 20px 0;
+          position: absolute;
+          animation: marquee 35s linear infinite;
+        }
+
+        .marquee--inner:hover {
+          animation-play-state: paused;
+        }
+
+        /*.half {
 			float: left;
 			width: 10%;
 		  }*/
-		  
-		  #sponsors span {
-			float: left;
-			width: 50%;
-		  }
-		  
-		  @keyframes marquee {
-			0% { left: 0; }
-			100% { left: -100%; }
-		  }
+
+        #sponsors span {
+          float: left;
+          width: 50%;
+        }
+
+        @keyframes marquee {
+          0% {
+            left: 0;
+          }
+
+          100% {
+            left: -100%;
+          }
+        }
+
+        a.back-to-top i {
+          border-radius: 100%;
+        }
+
+        @media (max-width: 767px) {
+          .padding-none:nth-child(4) {
+            border: none;
+          }
+        }
+
+        @media (max-width: 991px) {
+          .padding-none:nth-child(4) {
+            border: none;
+          }
+        }
+
+        @media (max-width: 767px) {
+          .padding-none:nth-child(5) {
+            border: none;
+          }
+        }
+
+        @media (max-width: 991px) {
+          .padding-none:nth-child(5) {
+            border: none;
+          }
+        }
   </style>
 
 </head>
@@ -478,8 +559,8 @@
           <a href="#" class="btn btn-common">become a sponsor</a>
         </div>
       </div> -->
- 
-       
+
+
       <div class="marquee">
         <div class="marquee--inner">
           <span>
@@ -494,7 +575,8 @@
             <img class="orb" src="assets/img/sponsors/fedbank.6c60647dbb3f1f20448682864ed91ace.png" alt="">
             <img class="orb" src="assets/img/sponsors/fullcont.9c10f8a24d82946bbd20b8376f7ce2b5.png" alt="">
             <img class="orb" src="assets/img/sponsors/gadgeon.9fe3165c12ccaaa8e6a860cd85f71611.png" alt="">
-            <img class="orb" id="geogit" src="assets/img/sponsors/geogit.1d854c96d4f0b76b5f62a37f46ba95d0.png" id="geogit" alt="">
+            <img class="orb" id="geogit" src="assets/img/sponsors/geogit.1d854c96d4f0b76b5f62a37f46ba95d0.png"
+              id="geogit" alt="">
             <img class="orb" src="assets/img/sponsors/GulfLogo.0a0b736645aa46b3976528d6e38d4f6b.png" alt="">
             <img class="orb" src="assets/img/sponsors/harley.20da89820a0839dea4b9be22e9a716df.png" alt="">
             <img class="orb" src="assets/img/sponsors/idea.1b359fca3f558bec29e0e72ce8fa51c5.png" alt="">
@@ -528,7 +610,8 @@
             <img class="orb" src="assets/img/sponsors/fedbank.6c60647dbb3f1f20448682864ed91ace.png" alt="">
             <img class="orb" src="assets/img/sponsors/fullcont.9c10f8a24d82946bbd20b8376f7ce2b5.png" alt="">
             <img class="orb" src="assets/img/sponsors/gadgeon.9fe3165c12ccaaa8e6a860cd85f71611.png" alt="">
-            <img class="orb" id="geogit" src="assets/img/sponsors/geogit.1d854c96d4f0b76b5f62a37f46ba95d0.png" id="geogit" alt="">
+            <img class="orb" id="geogit" src="assets/img/sponsors/geogit.1d854c96d4f0b76b5f62a37f46ba95d0.png"
+              id="geogit" alt="">
             <img class="orb" src="assets/img/sponsors/GulfLogo.0a0b736645aa46b3976528d6e38d4f6b.png" alt="">
             <img class="orb" src="assets/img/sponsors/harley.20da89820a0839dea4b9be22e9a716df.png" alt="">
             <img class="orb" src="assets/img/sponsors/idea.1b359fca3f558bec29e0e72ce8fa51c5.png" alt="">
@@ -549,10 +632,10 @@
             <img class="orb" src="assets/img/sponsors/sastra.0974ccb78e1d1cae7de1c60bfb75f4d5.png" alt="">
             <img class="orb" src="assets/img/sponsors/sbh.df72dbd6f43d62e70ac438770b5dcbd2.png" alt="">
             <img class="orb" src="assets/img/sponsors/sbtn.b2a4e085bd1c105f57c5199130d6ba04.png" alt="">
-      
+
           </span>
         </div>
-      
+
       </div>
 
 
