@@ -1,0 +1,31 @@
+#gallery {
+    padding: 20px 0;
+}
+
+.galler-div {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: tomato;
+    filter: invert(1);
+}
+
+
+.carousel-inner, .item {
+    height: 600px;
+    border-radius: 5px;    
+ }
+
+ @media screen and (max-width:480px){
+    .carousel-inner, .item {
+        height: 200px;
+        
+     }
+     .galler-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+  } 
