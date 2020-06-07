@@ -233,6 +233,10 @@
     .btn:hover {
       background-color: #d4653c;
     }
+
+    .invisible {
+      display: none;
+    }
   </style>
 
 </head>
@@ -555,17 +559,17 @@
           </div>
         </div>
         <!-- Services item -->
-          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
-            <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon">
-                <img src="assets/img/association/5.png" alt="Exclusive Events" />
-              </div>
-              <div class="services-content">
-                <h3><a href="#">Continuous Exposure Through Excel</a></h3>
-                <p>Over six months of publicity through posters, print partners and more.</p>
-              </div>
+        <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+          <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
+            <div class="icon">
+              <img src="assets/img/association/5.png" alt="Exclusive Events" />
+            </div>
+            <div class="services-content">
+              <h3><a href="#">Continuous Exposure Through Excel</a></h3>
+              <p>Over six months of publicity through posters, print partners and more.</p>
             </div>
           </div>
+        </div>
       </div>
     </div>
   </section>
@@ -1427,9 +1431,25 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/form-validator.min.js"></script>
   <script src="assets/js/contact-form-script.min.js"></script>
-  <script src="assets/js/map.js"></script>
-  <script type="text/javascript"
-    src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script>
+  <!-- <script src="assets/js/map.js"></script> -->
+  <!-- <script type="text/javascript"
+    src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script> -->
+  <script>
+      // $(document).ready(function () {
+      //   $(window).click(function () {
+      //     $('.slicknav_nav').addClass('slicknav_hidden');
+      //     $('.slicknav_nav').addClass('invisible');
+      //   });
+
+      //   $('.slicknav_btn').click(function () {
+      //     $('.slicknav_nav').removeClass('invisible');
+      //   });
+
+      //   $('.slicknav_nav').click(function (event) {
+      //     event.stopPropagation();
+      //   });
+      // });
+  </script>
 
 </body>
 
