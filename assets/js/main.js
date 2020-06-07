@@ -16,7 +16,18 @@
             $('.scrolling-navbar').removeClass('top-nav-collapse');
         }
     });
-
+  //Close nav when clicked outside
+     $(document).ready(function () {
+        $(document).click(function (event) {    
+            var clickover = $(event.target);
+            var _opened = $(".slicknav_btn").hasClass("slicknav_open");
+            console.log(clickover)
+            if ( _opened === true && !clickover.hasClass("slicknav_btn") && !clickover.hasClass("slicknav_icon-bar") && !clickover.hasClass("slicknav_icon")) {
+                $(".slicknav_btn").click();
+            }
+        });
+    });
+    
     /* ==========================================================================
        countdown timer
        ========================================================================== */
