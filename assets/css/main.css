@@ -230,6 +230,11 @@ ul li, ol li {
   color: #fff;
 }
 
+.ass-img {
+  width: 140px;
+  height: 140px;
+}
+
 .brochure {
   padding-bottom: 20px;
 }
@@ -264,8 +269,8 @@ ul li, ol li {
   background-color: #1d9ac3;
   position: relative;
   z-index: 1;
-  padding: 13px;
-  font-weight: 700 !important;
+  padding: 17px;
+  font-weight: 500 !important;
 }
 
 .btn-common:hover {
