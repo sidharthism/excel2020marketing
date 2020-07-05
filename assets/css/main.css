@@ -22,7 +22,7 @@ body {
 h1, h2, h3, h4 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -1273,7 +1273,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .services-item .services-content h3 a {
   font-size: 20px;
   letter-spacing: 0.5px;
-  font-weight: 400;
+  font-weight: 600;
   color: #212121;
 }
 
