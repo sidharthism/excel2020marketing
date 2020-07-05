@@ -1369,8 +1369,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 @media(max-width: 400px)
 {
 .team-item{
-    width: 340px;
-    margin: 10px auto;
+    width: 320px;
+    margin: 17px auto;
  } 
 }
 
