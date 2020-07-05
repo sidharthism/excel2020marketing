@@ -270,7 +270,10 @@ ul li, ol li {
   position: relative;
   z-index: 1;
   padding: 17px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
+  text-transform: none;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .btn-common:hover {
