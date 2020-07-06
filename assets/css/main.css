@@ -232,6 +232,13 @@ ul li, ol li {
   width: 100px;
 }
 
+@media (max-width: 375px) {
+  .reachimg {
+    height: 90px;
+    width: 90px;
+  }
+}
+
 #about {
   padding: 60px 0px 0px;
 }
@@ -254,7 +261,7 @@ ul li, ol li {
 
 @media (max-width: 767px) {
   .padding-none:nth-child(1) {
-    border: none;
+    border: none !important;
   }
 }
 
@@ -1334,6 +1341,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-transform: uppercase;
 }
 
+@media (max-width: 375px) {
+  .counter-section .counter p {
+    font-size: 14px;
+  }
+  .counter-section .counter span {
+    font-size: 11px;
+  }
+}
+
 /* Sponsors Area */
 #sponsors {
   background: #fff;
@@ -1689,10 +1705,42 @@ a.back-to-top:hover, a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
+@media(max-width: 420px)
+{
+.team-item{
+    width: 350px;
+    margin: 17px auto;
+ } 
+}
+
 @media(max-width: 400px)
 {
 .team-item{
-    width: 320px;
+    width: 330px;
+    margin: 17px auto;
+ } 
+}
+
+@media(max-width: 380px)
+{
+.team-item{
+    width: 310px;
+    margin: 17px auto;
+ } 
+}
+
+@media(max-width: 360px)
+{
+.team-item{
+    width: 290px;
+    margin: 17px auto;
+ } 
+}
+
+@media(max-width: 340px)
+{
+.team-item{
+    width: 270px;
     margin: 17px auto;
  } 
 }
@@ -1840,10 +1888,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 @media(max-width: 500px) {
   .blog-padding{
-    padding: 0;
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-top: 15px;
+    padding-bottom: 0px;
   }
 }
 
