@@ -382,7 +382,20 @@ ul li, ol li {
     margin: 0 auto;
   }
 
-}	   
+}	
+
+@media screen and (max-width: 576px) {
+  .team-item {
+    width: 300px;
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .blog-item {
+    margin: 0 64px;
+  }
+}
 
 .invisible {
   display: none;
