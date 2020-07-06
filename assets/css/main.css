@@ -251,6 +251,9 @@ ul li, ol li {
   padding: 10px 0 50px;
 }
 
+#contacts{
+  padding-bottom: 0;
+}
 .services-item {
   padding: 20px 20px;
 }
