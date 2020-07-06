@@ -232,6 +232,13 @@ ul li, ol li {
   width: 100px;
 }
 
+@media (max-width: 375px) {
+  .reachimg {
+    height: 90px;
+    width: 90px;
+  }
+}
+
 #about {
   padding: 60px 0px 0px;
 }
@@ -1332,6 +1339,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media (max-width: 375px) {
+  .counter-section .counter p {
+    font-size: 14px;
+  }
+  .counter-section .counter span {
+    font-size: 11px;
+  }
 }
 
 /* Sponsors Area */
