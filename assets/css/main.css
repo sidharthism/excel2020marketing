@@ -1555,6 +1555,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #f3f4f3;
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .tab-container{
+    max-width: 590px !important;
+  }
+}
 /* .padding-none {
   padding: 0;
   border-left: 1px solid #ddd;
