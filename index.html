@@ -41,307 +41,6 @@
   </script>
 
   <style>
-<<<<<<< HEAD
-    #header-logo {
-      background-color: #000000;
-      height: 100vh;
-      min-height: 480px;
-      vertical-align: middle;
-    }
-
-    .logoimg {
-      max-width: 70%;
-      margin-top: 25vh;
-    }
-
-    @media screen and (max-width: 768px) {
-      .navbar-brand {
-        position: absolute;
-        padding: 10px 15px;
-        top: 0;
-      }
-
-      .logoimg {
-        max-width: 70%;
-        margin-top: 5vh;
-        position: relative;
-        top: 220px;
-      }
-      .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    }
-
-    }
-
-
-    @media screen and (max-width: 1008px) {
-      .logoimg {
-        max-width: 70%;
-        top: 300px;
-        position: relative;
-      }
-    }
-    @media screen and (max-width: 1268px) {
-      .logoimg {
-        max-width: 70%;
-        top: 190px;
-        position: relative;
-      }
-    }
-    @media screen and (max-width:480px) {
-      .logoimg {
-        max-width: 90%;
-        /* margin: auto 0; */
-        position: relative;
-        top: 170px;
-      }
-      .gallery-img { 
-        margin: 0 auto;
-        width: 100% !important;
-      }
-      .carousel-control-next, .carousel-control-prev {
-        width: 15%;
-      }
-    }
-    @media screen and (max-width:420px) and (min-height: 600px) {
-      .logoimg {
-        max-width: 90%;
-        /* margin: auto 0; */
-        position: relative;
-        top: 200px;
-      }
-      .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    }
-    }
-    @media screen and (max-width:420px) and (min-height: 730px) {
-      .logoimg {
-        max-width: 90%;
-        /* margin: auto 0; */
-        position: relative;
-        top: 230px;
-      }
-      .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    }
-    }
-    @media screen and (max-width:420px) and (min-height: 820px) {
-      .logoimg {
-        max-width: 90%;
-        /* margin: auto 0; */
-        position: relative;
-        top: 280px;
-      }
-      .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    }
-    }
-    @media screen and (max-width:420px) and (min-height: 800px) {
-      .logoimg {
-        max-width: 90%;
-        /* margin: auto 0; */
-        position: relative;
-        top: 300px;
-      }
-      .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    }
-    }
-    @media screen and (max-width:365px) {
-      .logoimg {
-        max-width: 90%;
-        /* margin: auto 0; */
-        position: relative;
-        top: 200px;
-      }
-      .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    }
-
-    }
-
-    #nav-brand {
-      max-height: 6.5vh;
-    }
-    @media screen and (max-width:1025px) {
-      #nav-brand {
-      max-height: 3.5vh;
-    }
-    }
-    @media screen and (max-width:725px) {
-      #nav-brand {
-      max-height: 5.5vh;
-    }
-    .gallery-img { 
-      margin: 0 auto;
-      width: 100% !important;
-    } 
-    }
-
-    .slicknav_btn {
-      border-color: #00000000;
-    }
-
-    .slicknav_nav {
-      padding-bottom: 20px;
-    }
-
-    @media screen and (max-width: 768px) {
-      .navbar-brand img {
-        width: auto;
-      }
-    }
-
-    .navbar-brand img {
-      width: auto;
-    }
-
-    .reachimg {
-      height: 100px;
-      width: 100px;
-    }
-
-    #about {
-      padding: 60px 0px 0px;
-    }
-
-    #association .services-wrapper {
-      margin-top: 0;
-    }
-
-    #association {
-      padding: 10px 0;
-    }
-
-    .services-item {
-      padding: 20px 20px;
-    }
-
-    .padding-none {
-      border: none;
-    }
-
-    @media (max-width: 767px) {
-      .padding-none:nth-child(1) {
-        border: none;
-      }
-    }
-
-    @media (max-width: 991px) {
-      .padding-none:nth-child(1) {
-        border: none;
-      }
-    }
-
-    .orb {
-      width: 150px;
-      height: 150px;
-      display: inline;
-      margin: 0 24.7px;
-      float: left;
-      transition: all .2s ease-out;
-      opacity: 0.8;
-    }
-
-    #geogit {
-      width: 100px;
-      margin-top: 20px;
-      height: 100px;
-    }
-
-    .orb:hover {
-      transform: scale(1.2);
-      opacity: 1;
-    }
-
-    .container-fluid {
-      /*overflow: hidden;*/
-      padding: 0;
-    }
-
-    .marquee {
-      height: 200px;
-      width: 6350px;
-      border: none;
-      box-sizing: border-box;
-      position: relative;
-      margin: 10px 0 20px 0;
-    }
-
-    .marquee--inner {
-      display: block;
-      width: 200%;
-      margin: 20px 0;
-      position: absolute;
-      animation: marquee 50s linear infinite;
-    }
-
-    .marquee--inner:hover {
-      animation-play-state: paused;
-    }
-
-    /*.half {
-			float: left;
-			width: 10%;
-		  }*/
-
-    #sponsors span {
-      float: left;
-      width: 50%;
-    }
-
-    @keyframes marquee {
-      0% {
-        left: 0;
-      }
-
-      100% {
-        left: -100%;
-      }
-    }
-
-    a.back-to-top i {
-      border-radius: 100%;
-    }
-
-    @media (max-width: 767px) {
-      .padding-none:nth-child(4) {
-        border: none;
-      }
-      
-    }
-
-    @media (max-width: 991px) {
-      .padding-none:nth-child(4) {
-        border: none;
-      }
-    }
-
-    @media (max-width: 767px) {
-      .padding-none:nth-child(5) {
-        border: none;
-      }
-    }
-
-    @media (max-width: 991px) {
-      .padding-none:nth-child(5) {
-        border: none;
-      }
-    }
-	  
-    @media (max-width: 767px) {
-      .padding-none:nth-child(6) {
-        border: none;
-      }
-    }
-=======
->>>>>>> upstream/master
     
   </style>
 
@@ -535,7 +234,7 @@
               <img src="assets/img/association/1.png" alt="Onsite Participation" class="ass-img"/>
             </div>
             <div class="services-content">
-              <h3><a href="#">Onsite Participation</a></h3>
+              <h3><a>Onsite Participation</a></h3>
               <p>Excel attracts the best and brightest from across the country to take part in some of the best
                 technical and
                 non-technical events.</p>
@@ -549,7 +248,7 @@
               <img src="assets/img/association/2.png" alt="Social Media Presence" class="ass-img"/>
             </div>
             <div class="services-content">
-              <h3><a href="#">Social Media Presence</a></h3>
+              <h3><a>Social Media Presence</a></h3>
               <p>Huge social media footprint across all platforms, which includes: Facebook page with more than 22k
                 likes and active
                 Twitter, WhatsApp and Instagram handles.</p>
@@ -563,7 +262,7 @@
               <img src="assets/img/association/3.png" alt="Pre-Excel Events" class="ass-img"/>
             </div>
             <div class="services-content">
-              <h3><a href="#">Pre-Excel Events</a></h3>
+              <h3><a>Pre-Excel Events</a></h3>
               <p>Events to raise awareness about social issues and provide solutions to these relevant issues using
                 technical
                 capabilities of students.</p>
@@ -577,7 +276,7 @@
               <img src="assets/img/association/4.png" alt="Online Presence" class="ass-img"/>
             </div>
             <div class="services-content">
-              <h3><a href="#">Online Presence</a></h3>
+              <h3><a>Online Presence</a></h3>
               <p>Excel and its associated websites have managed to attract over a million hits in its previous editions.
               </p>
             </div>
@@ -590,7 +289,7 @@
               <img src="assets/img/association/5.png" alt="Exclusive Events" class="ass-img"/>
             </div>
             <div class="services-content">
-              <h3><a href="#">Exclusive Events</a></h3>
+              <h3><a>Exclusive Events</a></h3>
               <p>Exclusive rights for companies to design and host events to promote the company values.</p>
             </div>
           </div>
@@ -602,7 +301,7 @@
               <img src="assets/img/association/6.png" alt="Exclusive Events" class="ass-img"/>
             </div>
             <div class="services-content">
-              <h3><a href="#">Continuous Exposure Through Excel</a></h3>
+              <h3><a>Continuous Exposure Through Excel</a></h3>
               <p>Over six months of publicity through posters, print partners and more.</p>
             </div>
           </div>
