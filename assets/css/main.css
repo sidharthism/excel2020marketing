@@ -381,6 +381,26 @@ ul li, ol li {
 
 }	   
 
+@media screen and (max-width: 576px) {
+  .team-item {
+    width: 300px;
+    margin: 15px auto !important;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .blog-item {
+    margin: 0 64px;
+  }
+}
+
+@media (max-width: 460px) {
+  .blog-item {
+    margin: 0 14px;
+  }
+}
+
 .invisible {
   display: none;
 }
