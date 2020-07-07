@@ -251,9 +251,6 @@ ul li, ol li {
   padding: 10px 0 50px;
 }
 
-#contacts{
-  padding-bottom: 0;
-}
 .services-item {
   padding: 20px 20px;
 }
@@ -382,20 +379,7 @@ ul li, ol li {
     margin: 0 auto;
   }
 
-}	
-
-@media screen and (max-width: 576px) {
-  .team-item {
-    width: 300px;
-    margin: 15px auto;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .blog-item {
-    margin: 0 64px;
-  }
-}
+}	   
 
 .invisible {
   display: none;
