@@ -391,13 +391,7 @@ ul li, ol li {
   }
 }
 
-@media (max-width: 460px) {
-  .blog-item {
-    margin: 0 14px;
-  }
-}
-
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .blog-item {
     margin: 0 64px;
   }
