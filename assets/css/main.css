@@ -1916,6 +1916,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   .blog-padding{
     padding-top: 15px;
     padding-bottom: 0px;
+    padding-left: 42px;
+    padding-right: 42px;
   }
 }
 
