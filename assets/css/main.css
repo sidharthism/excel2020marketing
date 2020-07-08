@@ -182,9 +182,10 @@ ul li, ol li {
 }
 
 #nav-brand {
-  max-height: 5.5vh;
+    max-height: 40px; /* max-height: 5.5vh; */
+    padding-left: 7px;
 }
-@media screen and (max-width:1025px) {
+/* @media screen and (max-width:1025px) {
   #nav-brand {
   max-height: 3.0vh;
 }
@@ -192,7 +193,7 @@ ul li, ol li {
 @media screen and (max-width:725px) {
   #nav-brand {
   max-height: 4.3vh;
-}
+} */
 @media (max-width: 410px) {
   .navbar-brand {
     padding: 16px;
