@@ -1939,6 +1939,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   }
 }
 
+@media (min-width: 1200px) {
+  .contact-cards {
+  padding-left: 100px;
+  padding-right: 100px;
+  }
+}
+
 .blog-item .blog-image {
   width: 100%;
   max-width: 370px;
