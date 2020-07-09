@@ -394,7 +394,7 @@ ul li, ol li {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .blog-item {
     margin: 0 64px;
   }
@@ -1916,6 +1916,18 @@ a.back-to-top:hover, a.back-to-top:focus {
 .blog-padding {
   padding: 28px;
   padding-bottom: 0;
+}
+
+@media only screen and (max-width: 570px) and (min-width: 550px)  {
+  .blog-padding{
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .blog-item {
+    margin: 0 24px;
+}
 }
 
 @media(max-width: 500px) {
