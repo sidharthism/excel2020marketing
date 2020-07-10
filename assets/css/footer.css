@@ -90,7 +90,7 @@
         ". icon1 icon2 icon3 ."
         ". brand brand brand .";
     height: 180px;
-    padding-top: 15px;
+    padding: 15px 10px 0;
     font-size: 12px;
 }
 .Excelbrand-text {
