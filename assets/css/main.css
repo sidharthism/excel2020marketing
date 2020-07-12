@@ -64,7 +64,77 @@ ul li, ol li {
   vertical-align: middle;
 }
 
+/* ===============LANDING PAGE============== */
+header {
+  background-image: url("../img/bg.jpg");
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 
+.logo-only {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.logo-square{
+  display: none;
+}
+
+.landing {
+  padding: 140px 50px 50px !important;
+  margin: 0 auto !important;
+}
+
+.brochure {
+  margin-top: 30px; 
+}
+
+.title-only {
+  width: 50%;
+}
+
+.about-excel{
+  padding: 36px 50px;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 32px;
+}
+
+@media(max-width: 990px) {
+  header {
+    height: auto;
+  }
+  .logo-only, .title-only{
+    display: none;
+  }
+  .logo-square {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .landing {
+    padding: 120px 30px 30px !important;
+    margin: 0 auto !important;
+  }
+  .about-excel{
+    padding: 36px 25px;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 32px;
+  }
+  .brochure {
+    margin-top: 0px; 
+  }
+}
+@media (min-height:900px) {
+  header {
+    height: auto;
+  }
+}
+/* ============================================= */
 
 .logoimg {
   max-width: 70%;
