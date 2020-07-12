@@ -42,7 +42,36 @@
   </script>
 
   <style>
-    
+    header {
+     background-image: url("./assets/img/bg.jpg");
+     /* background-attachment: fixed; */
+     background-repeat: no-repeat;
+     height: 100vh;
+   }
+
+   .logo-square {
+     width: 100%;
+     margin-right: 20px;
+   }
+   .landing {
+     padding: 140px 50px 50px;
+     margin: 0 auto;
+   }
+
+   .brochure {
+     margin-top: 30px; 
+   }
+
+   .title-only {
+     width: 50%;
+   }
+
+   .about-excel{
+     padding: 30px 50px;
+     color: white;
+     font-size: 1.2rem;
+     line-height: 32px;
+   }
   </style>
 
 </head>
@@ -145,10 +174,10 @@
 
     <!-- Main Carousel Section Start -->
     <!-- <div id="main-slide header-logo" class="carousel slide" data-ride="carousel" > -->
-    <div id="header-logo" class="">
+    <!-- <div id="header-logo" class="">
       <center>
         <img class="logoimg" src="assets/img/headerlogo.png">
-      </center>
+      </center> -->
       <!--
         <ol class="carousel-indicators">
           <li data-target="#main-slide" data-slide-to="0" class="active"></li>
@@ -172,8 +201,39 @@
         -->
 
 
-    </div>
+    <!-- </div>
 
+    </div> -->
+
+    <div class="container-fluid landing">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="logo-square wow fadeInLeft" data-wow-delay="0.2s" src="./assets/img/logoonly.png">
+        </div>
+        <div class="col-lg-8">
+          <div class="section-title-header text-center">
+            <img class="title-only wow fadeInUp" data-wow-delay="0.2s" src="./assets/img/title_only.png">
+            <p class="wow fadeInUp about-excel" data-wow-delay="0.2s">
+              Excel is the annual national level techno-managerial fest of Govt. Model Engineering College. Conceived in
+              2001 by the
+              students, Excel has grown exponentially, providing a strong platform which hosts technical, managerial and
+              general
+              events. These events are scheduled over three action packed days. Apart from a series of high profile
+              events like IBeTo
+              (Innovations for a Better Tomorrow), Untitled and .ISSUE!, Excel conducts online competitions, workshops,
+              talks and
+              seminars, video conferences, exhibitions and pro shows. Excel also provides a platform for reputed
+              companies to harness
+              the skills and abilities of the brightest minds in the state.
+            </p>
+            <div class=" text-center brochure wow fadeInUp about-excel" data-wow-delay="0.2s">
+              <a href="https://drive.google.com/file/d/1PELQa8l2dT63MQ05w2RFxBluGGp2ccza/view" target="blank"
+                class="btn btn-common">Read Our Brochure</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
     </div>
 
     <!-- Main Carousel Section End -->
@@ -184,7 +244,7 @@
 
 
   <!-- About Section Start -->
-  <section id="about" class="section-padding">
+  <!-- <section id="about" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -211,7 +271,7 @@
       </div>
       
     </div>
-  </section>
+  </section> -->
   <!-- About Section End -->
 
 
@@ -219,7 +279,7 @@
   <!-- Association Section Start -->
   <section id="association" class="services section-padding" style="margin-top: 50px;">
     <div class="container tab-container">
-      <div class="row" style="margin-top: 60px">
+      <div class="row" > <!-- style="margin-top: 60px" -->
         <div class="col-12">
           <div class="section-title-header text-center">
             <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why Associate With Excel?</h1>
