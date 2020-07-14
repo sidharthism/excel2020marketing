@@ -19,6 +19,28 @@ body {
   overflow-x: hidden;
 }
 
+
+/* Scroll-bar */
+
+body::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    body::-webkit-scrollbar-track {
+      background-color: #000000;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background-color: #0383B1;
+      outline: none;
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+      background-color: #00799e;
+      outline: none;
+    }
+
+
 h1, h2, h3, h4 {
   font-size: 36px;
   font-weight: 700;
@@ -64,77 +86,7 @@ ul li, ol li {
   vertical-align: middle;
 }
 
-/* ===============LANDING PAGE============== */
-header {
-  background-image: url("../img/bg.jpg");
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
 
-.logo-only {
-  width: 100%;
-  margin-right: 20px;
-}
-
-.logo-square{
-  display: none;
-}
-
-.landing {
-  padding: 140px 50px 50px !important;
-  margin: 0 auto !important;
-}
-
-.brochure {
-  margin-top: 30px; 
-}
-
-.title-only {
-  width: 50%;
-}
-
-.about-excel{
-  padding: 36px 50px;
-  color: white;
-  font-size: 1.2rem;
-  line-height: 32px;
-}
-
-@media(max-width: 990px) {
-  header {
-    height: auto;
-  }
-  .logo-only, .title-only{
-    display: none;
-  }
-  .logo-square {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .landing {
-    padding: 120px 30px 30px !important;
-    margin: 0 auto !important;
-  }
-  .about-excel{
-    padding: 36px 25px;
-    color: white;
-    font-size: 1.2rem;
-    line-height: 32px;
-  }
-  .brochure {
-    margin-top: 0px; 
-  }
-}
-@media (min-height:900px) {
-  header {
-    height: auto;
-  }
-}
-/* ============================================= */
 
 .logoimg {
   max-width: 70%;
@@ -159,6 +111,14 @@ header {
   width: 100% !important;
 }
 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-brand {
+    /* position: absolute !important; */
+    padding: 15px !important;
+    /* top: 0 !important; */
+  }
 }
 
 
@@ -320,8 +280,19 @@ header {
   margin-top: 0;
 }
 
+#association p {
+  text-align: center;
+}
+
 #association {
   padding: 10px 0 50px;
+}
+
+@media (max-width: 576px) {
+  #association p {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 #contacts{
@@ -702,10 +673,10 @@ header {
   background-color: #0383B1;
   position: relative;
   z-index: 1;
-  padding: 17px;
+  padding: 16px;
   font-weight: 400 !important;
   text-transform: none;
-  font-size: 15px;
+  font-size: 1.15rem;
   letter-spacing: 1px;
 }
 
@@ -1090,8 +1061,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
   z-index: 999999;
   top: 0px !important;
-  /* min-height: 68px; */
-  padding-bottom: 10px !important;
+  /* padding-bottom: 10px !important; */
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

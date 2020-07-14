@@ -13,6 +13,7 @@
   <!-- Icon -->
   <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
   <link rel="icon" href="assets/img/logo_icon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
   <!-- Slicknav -->
   <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
   <!-- Nivo Lightbox -->
@@ -29,22 +30,18 @@
   <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Landing Section Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/landing.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138249337-8"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-138249337-8');
   </script>
-
-  <style>
-    
-  </style>
-
 </head>
 
 <body>
@@ -63,8 +60,10 @@
             <span class="icon-menu"></span>
             <span class="icon-menu"></span>
           </button>
-          <a href="https://excelmec.org/" target="blank" class="navbar-brand"><img id="nav-brand" src="assets/img/logo_nav.png" alt=""></a>
+          <a href="https://excelmec.org/" target="blank" class="navbar-brand"><img id="nav-brand"
+              src="assets/img/logo_nav.png" alt=""></a>
         </div>
+        <span class="excel-2020">EXCEL 2020<span class="tag-line">INSPIRE | INNOVATE | ENGINEER</span></span>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item active">
@@ -149,7 +148,7 @@
       <center>
         <img class="logoimg" src="assets/img/headerlogo.png">
       </center> -->
-      <!--
+    <!--
         <ol class="carousel-indicators">
           <li data-target="#main-slide" data-slide-to="0" class="active"></li>
           <li data-target="#main-slide" data-slide-to="1"></li>
@@ -177,34 +176,35 @@
     </div> -->
 
     <div class="container-fluid landing">
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row landing-row">
+        <div class="col-lg-4 col-md-4 col-sm-12 logo-col">
           <img class="logo-only wow fadeInLeft" data-wow-delay="0.2s" src="./assets/img/logoonly.png">
-          <img class="logo-square wow fadeInLeft" data-wow-delay="0.2s" src="./assets/img/logo_squaree.png">
+          <img class="logo-main wow fadeInUp ml-auto mr-auto" data-wow-delay="0.2s" src="./assets/img/logo.png">
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-md-8 col-sm-12 about-excel-col">
           <div class="section-title-header text-center">
             <img class="title-only wow fadeInUp" data-wow-delay="0.2s" src="./assets/img/title_only.png">
-            <p class="wow fadeInUp about-excel" data-wow-delay="0.2s">
-              Excel is the annual national level techno-managerial fest of Govt. Model Engineering College. Conceived in
-              2001 by the
-              students, Excel has grown exponentially, providing a strong platform which hosts technical, managerial and
-              general
-              events. These events are scheduled over three action packed days. Apart from a series of high profile
-              events like IBeTo
-              (Innovations for a Better Tomorrow), Untitled and .ISSUE!, Excel conducts online competitions, workshops,
-              talks and
-              seminars, video conferences, exhibitions and pro shows. Excel also provides a platform for reputed
-              companies to harness
-              the skills and abilities of the brightest minds in the state.
-            </p>
-            <div class=" text-center brochure wow fadeInUp about-excel" data-wow-delay="0.2s">
-              <a href="https://drive.google.com/file/d/1PELQa8l2dT63MQ05w2RFxBluGGp2ccza/view" target="blank"
-                class="btn btn-common">Read Our Brochure</a>
-            </div>
+            <!-- <h1 class="title-only wow fadeInUp" data-wow-delay="0.2s">ABOUT EXCEL</h1> -->
+          </div>
+          <p class="wow fadeInUp about-excel" data-wow-delay="0.2s">
+            Excel is the annual national level techno-managerial fest of Govt. Model Engineering College. Conceived in
+            2001 by the
+            students, Excel has grown exponentially, providing a strong platform which hosts technical, managerial and
+            general
+            events. These events are scheduled over three action packed days. Apart from a series of high profile
+            events like IBeTo
+            (Innovations for a Better Tomorrow), Untitled and .ISSUE!, Excel conducts online competitions, workshops,
+            talks and
+            seminars, video conferences, exhibitions and pro shows. Excel also provides a platform for reputed
+            companies to harness
+            the skills and abilities of the brightest minds in the state.
+          </p>
+          <div class=" text-center brochure wow fadeInUp" data-wow-delay="0.2s">
+            <a href="https://drive.google.com/file/d/1PELQa8l2dT63MQ05w2RFxBluGGp2ccza/view" target="blank"
+              class="btn btn-common">Read Our Brochure</a>
           </div>
         </div>
-        
+
       </div>
     </div>
 
@@ -249,9 +249,10 @@
 
 
   <!-- Association Section Start -->
-  <section id="association" class="services section-padding" ><!-- style="margin-top: 50px;" -->
+  <section id="association" class="services section-padding">
+    <!-- style="margin-top: 50px;" -->
     <div class="container tab-container">
-      <div class="row" style="margin-top: 60px" >
+      <div class="row" style="margin-top: 60px">
         <div class="col-12">
           <div class="section-title-header text-center">
             <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why Associate With Excel?</h1>
@@ -264,7 +265,7 @@
         <div class="col-sm-6 col-lg-4 col-xs-12 padding-none">
           <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
             <div class="icon">
-              <img src="assets/img/association/1.png" alt="Onsite Participation" class="ass-img"/>
+              <img src="assets/img/association/1.png" alt="Onsite Participation" class="ass-img" />
             </div>
             <div class="services-content">
               <h3><a>Onsite Participation</a></h3>
@@ -278,7 +279,7 @@
         <div class="col-sm-6 col-lg-4 col-xs-12 padding-none">
           <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
             <div class="icon">
-              <img src="assets/img/association/2.png" alt="Social Media Presence" class="ass-img"/>
+              <img src="assets/img/association/2.png" alt="Social Media Presence" class="ass-img" />
             </div>
             <div class="services-content">
               <h3><a>Social Media Presence</a></h3>
@@ -292,7 +293,7 @@
         <div class="col-sm-6 col-lg-4 col-xs-12 padding-none">
           <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
             <div class="icon">
-              <img src="assets/img/association/3.png" alt="Pre-Excel Events" class="ass-img"/>
+              <img src="assets/img/association/3.png" alt="Pre-Excel Events" class="ass-img" />
             </div>
             <div class="services-content">
               <h3><a>Pre-Excel Events</a></h3>
@@ -306,7 +307,7 @@
         <div class="col-sm-6 col-lg-4 col-xs-12 padding-none">
           <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
             <div class="icon">
-              <img src="assets/img/association/4.png" alt="Online Presence" class="ass-img"/>
+              <img src="assets/img/association/4.png" alt="Online Presence" class="ass-img" />
             </div>
             <div class="services-content">
               <h3><a>Online Presence</a></h3>
@@ -319,7 +320,7 @@
         <div class="col-sm-6 col-lg-4 col-xs-12 padding-none">
           <div class="services-item wow fadeInDown" data-wow-delay="1s">
             <div class="icon">
-              <img src="assets/img/association/5.png" alt="Exclusive Events" class="ass-img"/>
+              <img src="assets/img/association/5.png" alt="Exclusive Events" class="ass-img" />
             </div>
             <div class="services-content">
               <h3><a>Exclusive Events</a></h3>
@@ -331,7 +332,7 @@
         <div class="col-sm-6 col-lg-4 col-xs-12 padding-none">
           <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
             <div class="icon">
-              <img src="assets/img/association/6.png" alt="Exclusive Events" class="ass-img"/>
+              <img src="assets/img/association/6.png" alt="Exclusive Events" class="ass-img" />
             </div>
             <div class="services-content">
               <h3><a>Continuous Exposure</a></h3>
@@ -470,7 +471,7 @@
           </div>
         </div>
         <!-- Counter Item -->
-<!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
+        <!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
           <div class="counter wow fadeInRight" data-wow-delay="0.9s">
             <div class="icon">
               <img class="reachimg" src="assets/img/reach/3.png" />
@@ -480,7 +481,7 @@
           </div>
         </div> -->
         <!-- Counter Item -->
-<!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
+        <!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
           <div class="counter wow fadeInRight" data-wow-delay="1.2s">
             <div class="icon">
               <img class="reachimg" src="assets/img/reach/4.png" />
@@ -489,7 +490,7 @@
             <span>Across Social Media</span>
           </div>
         </div> -->
-      <!-- </div>
+        <!-- </div>
       <div class="row"> -->
         <!-- Counter Item -->
         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
@@ -501,7 +502,7 @@
             <span>Schools</span>
           </div>
         </div>
-      
+
         <!-- Counter Item -->
         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
           <div class="counter wow fadeInRight" data-wow-delay="1.2s">
@@ -545,7 +546,7 @@
           </div>
         </div>
         <!-- Counter Item -->
-<!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
+        <!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
           <div class="counter wow fadeInRight" data-wow-delay="0.6s">
             <div class="icon">
               <img class="reachimg" src="assets/img/reach/10.png" />
@@ -565,7 +566,7 @@
           </div>
         </div>
         <!-- Counter Item -->
-<!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
+        <!--         <div class="col-md-6 col-lg-3 col-6 work-counter-widget text-center">
           <div class="counter wow fadeInRight" data-wow-delay="1.2s">
             <div class="icon">
               <img class="reachimg" src="assets/img/reach/12.png" />
@@ -691,20 +692,24 @@
         <div class="col-lg-4 col-sm-6 col-xs-12 blog-padding d-flex">
           <div class="blog-item">
             <div class="blog-image">
-              <a href="https://timesofindia.indiatimes.com/city/kochi/kochi-govt-model-engineering-college-students-team-up-to-help-special-homes/articleshow/75866500.cms" target="blank">
+              <a href="https://timesofindia.indiatimes.com/city/kochi/kochi-govt-model-engineering-college-students-team-up-to-help-special-homes/articleshow/75866500.cms"
+                target="blank">
                 <img class="img-fluid" src="assets/img/blog/reachout(1).jpg" alt="">
               </a>
             </div>
             <div class="descr">
               <div class="tag">TIMES OF INDIA</div>
               <h3 class="title">
-                <a href="https://timesofindia.indiatimes.com/city/kochi/kochi-govt-model-engineering-college-students-team-up-to-help-special-homes/articleshow/75866500.cms" target="blank">
+                <a href="https://timesofindia.indiatimes.com/city/kochi/kochi-govt-model-engineering-college-students-team-up-to-help-special-homes/articleshow/75866500.cms"
+                  target="blank">
                   Kochi Govt Model Engineering College students team up to help special homes
                 </a>
               </h3>
               <div class="meta-tags">
                 <span class="date">May 21, 2020</span>
-                <span class="comments">| <a href="https://timesofindia.indiatimes.com/city/kochi/kochi-govt-model-engineering-college-students-team-up-to-help-special-homes/articleshow/75866500.cms"> by Deepa Soman</a></span>
+                <span class="comments">| <a
+                    href="https://timesofindia.indiatimes.com/city/kochi/kochi-govt-model-engineering-college-students-team-up-to-help-special-homes/articleshow/75866500.cms">
+                    by Deepa Soman</a></span>
               </div>
             </div>
           </div>
@@ -725,7 +730,9 @@
               </h3>
               <div class="meta-tags">
                 <span class="date">May 19, 2020</span>
-                <span class="comments">| <a href="https://www.deshabhimani.com/youth-pulse/news-youth-pulse-19-05-2020/872406" target="blank"> by Web Desk</a></span>
+                <span class="comments">| <a
+                    href="https://www.deshabhimani.com/youth-pulse/news-youth-pulse-19-05-2020/872406" target="blank">
+                    by Web Desk</a></span>
               </div>
             </div>
           </div>
@@ -733,25 +740,29 @@
         <div class="col-lg-4 col-sm-6 col-xs-12 ml-sm-auto mr-sm-auto blog-padding d-flex">
           <div class="blog-item">
             <div class="blog-image">
-              <a href="https://www.deshabhimani.com/youth-pulse/gender-equality-campaign-through-social-media-by-students/859677" target="blank">
+              <a href="https://www.deshabhimani.com/youth-pulse/gender-equality-campaign-through-social-media-by-students/859677"
+                target="blank">
                 <img class="img-fluid" src="assets/img/blog/strike(1).jpg" alt="">
               </a>
             </div>
             <div class="descr">
               <div class="tag">Deshabimani</div>
               <h3 class="title">
-                <a href="https://www.deshabhimani.com/youth-pulse/gender-equality-campaign-through-social-media-by-students/859677" target="blank">
+                <a href="https://www.deshabhimani.com/youth-pulse/gender-equality-campaign-through-social-media-by-students/859677"
+                  target="blank">
                   Students come up with Gender Equality Campaign through Social Media
                 </a>
               </h3>
               <div class="meta-tags">
                 <span class="date">May 14, 2020 </span>
-                <span class="comments">| <a href="https://www.deshabhimani.com/youth-pulse/gender-equality-campaign-through-social-media-by-students/859677"> by Web Desk </a></span>
+                <span class="comments">| <a
+                    href="https://www.deshabhimani.com/youth-pulse/gender-equality-campaign-through-social-media-by-students/859677">
+                    by Web Desk </a></span>
               </div>
             </div>
           </div>
         </div>
-       
+
       </div>
     </div>
   </section>
@@ -859,10 +870,14 @@
               <div class="team-overlay">
                 <div class="overlay-social-icon text-center">
                   <ul class="social-icons">
-                    <li><a href="mailto:aarishali.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a></li>
-                    <li><a href="tel:919947249291" target="blank"><i class="lni-phone-handset" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/aarishali_/?hl=en" target="blank"><i class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    <li><a href=" https://in.linkedin.com/in/aarish-ali-677bb617a?trk=people-guest_people_search-card" target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:aarishali.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="tel:919947249291" target="blank"><i class="lni-phone-handset"
+                          aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/aarishali_/?hl=en" target="blank"><i
+                          class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    <li><a href=" https://in.linkedin.com/in/aarish-ali-677bb617a?trk=people-guest_people_search-card"
+                        target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -886,10 +901,15 @@
               <div class="team-overlay">
                 <div class="overlay-social-icon text-center">
                   <ul class="social-icons">
-                    <li><a href="mailto:snehasurendran.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a></li>
-                    <li><a href="tel:919072739452" target="blank"><i class="lni-phone-handset" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/ms_marar/?hl=en" target="blank"><i class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    <li><a href="https://in.linkedin.com/in/sneha-surendran-057a68169?trk=people-guest_people_search-card" target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:snehasurendran.mec@gmail.com"><i class="lni lni-envelope"
+                          aria-hidden="true"></i></a></li>
+                    <li><a href="tel:919072739452" target="blank"><i class="lni-phone-handset"
+                          aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/ms_marar/?hl=en" target="blank"><i
+                          class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    <li><a
+                        href="https://in.linkedin.com/in/sneha-surendran-057a68169?trk=people-guest_people_search-card"
+                        target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                 </div>
               </div>
             </div>
@@ -912,10 +932,14 @@
               <div class="team-overlay">
                 <div class="overlay-social-icon text-center">
                   <ul class="social-icons">
-                    <li><a href="mailto:amaldb.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a></li>
-                    <li><a href="tel:919496252335" target="blank"><i class="lni-phone-handset" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/__.d.b.___/?hl=en" target="blank"><i class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    <li><a href="https://in.linkedin.com/in/amal-d-b-038372158" target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:amaldb.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="tel:919496252335" target="blank"><i class="lni-phone-handset"
+                          aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/__.d.b.___/?hl=en" target="blank"><i
+                          class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/amal-d-b-038372158" target="blank"><i
+                          class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -939,10 +963,13 @@
               <div class="team-overlay">
                 <div class="overlay-social-icon text-center">
                   <ul class="social-icons">
-                    <li><a href="mailto:ameesh.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a></li>
-                    <li><a href="tel:918330026937" target="blank"><i class="lni-phone-handset" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:ameesh.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="tel:918330026937" target="blank"><i class="lni-phone-handset"
+                          aria-hidden="true"></i></a></li>
                     <li><a href="#" target="blank"><i class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    <li><a href="https://in.linkedin.com/in/ameesh-m-iqbal-8b253b1a1" target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/ameesh-m-iqbal-8b253b1a1" target="blank"><i
+                          class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                   </ul>
                 </div>
               </div>
@@ -966,10 +993,14 @@
               <div class="team-overlay">
                 <div class="overlay-social-icon text-center">
                   <ul class="social-icons">
-                    <li><a href="mailto:jewel.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a></li>
-                    <li><a href="tel:919846499199" target="blank"><i class="lni-phone-handset" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/je101el/?hl=en " target="blank"><i class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
-                    <li><a href=" https://in.linkedin.com/in/jewel-joseph-897182173?trk=people-guest_people_search-card" target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
+                    <li><a href="mailto:jewel.mec@gmail.com"><i class="lni lni-envelope" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="tel:919846499199" target="blank"><i class="lni-phone-handset"
+                          aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/je101el/?hl=en " target="blank"><i
+                          class="lni lni-instagram-filled" aria-hidden="true"></i></a></li>
+                    <li><a href=" https://in.linkedin.com/in/jewel-joseph-897182173?trk=people-guest_people_search-card"
+                        target="blank"><i class="lni-linkedin-filled" aria-hidden="true"></i></a></li>
                   </ul>
                 </div>
               </div>

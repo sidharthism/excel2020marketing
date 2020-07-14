@@ -1,0 +1,202 @@
+    header {
+      background-image: url("../img/bg.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+    }
+
+    .tag-line,
+    .excel-2020 {
+      display: none;
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+      .tag-line {
+        display: inline-block !important;
+        font-family: 'Lato', sans-serif;
+        word-spacing: 5px;
+        color: #0383B1;
+        font-weight: 400;
+        font-size: 17.5px;
+        margin-left: 20px;
+        position: relative;
+        bottom: 1px;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+      .excel-2020 {
+        display: inline-block !important;
+        font-family: 'Lato', sans-serif;
+        word-spacing: 5px;
+        color: #0383B1;
+        font-weight: 600;
+        font-size: 20px;
+      }
+    }
+
+    .logo-main {
+      display: none;
+    }
+
+    .logo-only {
+      width: 100%;
+      margin-right: 20px;
+    }
+
+    .landing {
+      padding: 100px 50px 50px;
+      margin: 0 auto;
+      /* min-height: 100vh; */
+    }
+
+    .landing-row {
+      min-height: -webkit-fill-available !important;
+    }
+
+    .brochure {
+      margin-top: 30px;
+    }
+
+    .title-only {
+      width: 40%;
+      /* color: #0383B1;
+      font-weight: 600;
+      word-spacing: 10px; */
+    }
+
+    .logo-col {
+      margin: auto;
+    }
+
+    .about-excel-col {
+      margin: auto;
+    }
+
+    .about-excel {
+      padding: 36px 50px;
+      color: white;
+      font-size: 1.2rem;
+      line-height: 28px;
+      text-align: justify;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+      .about-excel {
+        padding-right: 10px;
+      }
+      .title-only {
+        width: 60%;
+      }
+    }
+
+    @media (min-width: 576px) and (max-width: 768px) {
+      .landing {
+        padding-top: 80px;
+      }
+
+      .about-excel {
+        padding: 36px 40px;
+        font-size: 1.1rem;
+        line-height: 32px;
+      }
+
+      .brochure {
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .landing {
+        padding-top: 80px;
+      }
+
+      .logo-main {
+        width: 100% !important;
+        height: auto;
+      }
+
+      .about-excel {
+        padding: 36px 0;
+        line-height: 25px;
+        font-size: 15px;
+      }
+
+      .brochure {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .title-only {
+        display: none !important;
+      }
+
+      .logo-only {
+        display: none !important;
+      }
+
+      .logo-main {
+        display: block !important;
+        width: 95%;
+        height: auto;
+      }
+
+      .about-excel-col {
+        margin-top: 0;
+      }
+    }
+
+    @media (width: 768px) {
+      .about-excel-col {
+        margin-top: auto;
+      }
+    }
+
+    @media (max-width: 1080px) {
+      .logo-only {
+        margin-top: -50px;
+      }
+
+      .title-only {
+        width: 60%;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .about-excel {
+        font-size: 0.82rem;
+        line-height: 20px;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .about-excel {
+        line-height: 18px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      header {
+        background-attachment: unset;
+      }
+    }
+
+    @media (min-width: 1600px) {
+      /* .title-only {
+        font-size: 46px;
+      } */
+
+      .about-excel {
+        padding: 36px 80px;
+        font-size: 1.4rem;
+        line-height: 36px;
+      }
+    }
