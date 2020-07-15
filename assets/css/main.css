@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700");
 html {
   overflow-x: hidden;
+  scrollbar-color: #0383B1 #000000;
+  scrollbar-width: thin;
 }
 
 body {
@@ -22,7 +24,7 @@ body {
 
 /* Scroll-bar */
 
-body::-webkit-scrollbar {
+    body::-webkit-scrollbar {
       width: 7px;
     }
 

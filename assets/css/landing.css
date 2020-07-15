@@ -49,12 +49,17 @@
     .landing {
       padding: 100px 50px 50px;
       margin: 0 auto;
-      /* min-height: 100vh; */
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    .landing-row {
+    /* .landing-row {
+      min-height: -moz-available !important;
       min-height: -webkit-fill-available !important;
-    }
+      min-height: -o-fill-available !important;
+    } */
 
     .brochure {
       margin-top: 30px;
